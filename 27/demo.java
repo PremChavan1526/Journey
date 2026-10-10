@@ -13,6 +13,9 @@ public class demo {
 
         // List<Dog> dog= new ArrayList<>();
         // List<Animal> animals = dog;
+
+        List <Animal> animals = new ArrayList<>();
+        animals.add(new Animal());
         
         
     }
