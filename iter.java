@@ -8,7 +8,7 @@ public class iter {
 
         List<Integer> list = new ArrayList<>();  /// here we can put anything such as Arraylist, Linkedlist that will workl Collection will also work here
         list.add(10);
-        list.add(20);
+        list.add(20);                               // we can also put ArrayDeque and hashset and it will store the input in a optimised form
         list.add(30);
         list.add(40);
         list.add(50);
