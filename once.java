@@ -21,6 +21,28 @@ public class once {
 
         float f = 23.60f;
         double d = 2345.765;   /// today's machine are more optimised for double
+
+
+
+        // characters  character --> interger --> store
+
+
+
+        char a = 'A';
+
+
+        // Boolean provide true or false value that is 0 or 1
+
+
+
+        boolean bool = false;
+
+        System.out.println("Integer values " +  b  + " , " + s +" , " + i + " , " + l );
+        System.out.println("Real Numbers  "  + f + " , " + d);
+        System.out.println("Character values  "  + a );
+        System.out.println("Boolean Values " + bool);
+
+
     }
     
 }
