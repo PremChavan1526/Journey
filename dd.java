@@ -14,6 +14,19 @@ public class dd {
         int n =c.size();
         System.out.println(c.size());
         System.out.println(c.isEmpty());
+
+
+        //boolean contains(Object o) --> 1,2,3  -->equals();
+
+        System.out.println(c.contains(2));
+
+
+
+        Object[] obj = c.toArray();
+        for( Object o : obj){
+
+            System.out.println(o);
+        }
     }
     
 }
