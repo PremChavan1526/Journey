@@ -12,7 +12,7 @@ public class once {
         //byte b = 05;   binary
         // byte b = 0x5;  hexadecimal
 
-        byte b = 10;
+        byte b = -10;
         short s = 250;
         int i = 1000;
         long l = 3456789;
@@ -20,6 +20,10 @@ public class once {
         // Real Numbers
 
         float f = 23.60f;
+
+        System.out.printf( "%.20f", f); 
+        System.out.println("\n");   ////
+        
         double d = 2345.765;   /// today's machine are more optimised for double
 
 
