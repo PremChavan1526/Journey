@@ -34,7 +34,9 @@ class Student {
 
     Student ()                          //chaining implemented succesfully here 
     {
-        this("Unknown");
+        this("Unknown");                    //this should be the first line of the constructor
+                                                    //  Constructor can only be called by  creating object or by using this keyword
+                                                        // Constructor cannot be called manually
 
         System.out.println("first constructor");
     }
