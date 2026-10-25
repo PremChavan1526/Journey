@@ -11,17 +11,21 @@ public class gener {
 
         //Downcasting 
         
-      box b1 = new box(10);
-      box b2 = new box("Hello");
-      box b3 = new box(true);
+    //   box b1 = new box(10);
+    //   box b2 = new box("Hello");
+    //   box b3 = new box(true);
 
 
-      Integer i = (Integer)b1.getValue();
-      String s = (String) b2.getValue();
-      Boolean b = (Boolean) b3.getValue();
-      System.out.println(i + 5);
-      System.out.println(s + 5);
-      System.out.println(b);
+    //   Integer i = (Integer)b1.getValue();
+    //   String s = (String) b2.getValue();
+    //   Boolean b = (Boolean) b3.getValue();
+    //   System.out.println(i + 5);
+    //   System.out.println(s + 5);
+    //   System.out.println(b);
+
+
+    box <Integer>  i = new box<>(10);
+    System.out.println(i.getValue());
 
 
 
@@ -29,22 +33,23 @@ public class gener {
 }
 
 
-class box {
+class box <T>{              //type parameter
 
-    private Object value ;
+    // private Object value ;
+    private T value ;
 
 
-    box (Object value){
+    box (T value){
         this.value = value;
     }
 
 
-    public Object getValue (){
+    public T getValue (){
         return value;
     }
 
 
-    public void setValue(Object value){
+    public void setValue(T value){
         this.value = value;
     }
 }
